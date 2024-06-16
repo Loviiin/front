@@ -1,0 +1,45 @@
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: url('smigwe.jpeg');
+    background-position: 10% -400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    margin-top: -5px;
+    text-align: center;
+}
+
+
+.container{
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 28px;
+    border-radius: 10px;
+    border-color: black;
+    border: 3px solid black;
+}
+
+.grid{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.celula{
+    width: 75px;
+    height: 65px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: black;
+    border: 5px solid black;
+
+}
+
